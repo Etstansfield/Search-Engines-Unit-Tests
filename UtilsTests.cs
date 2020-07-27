@@ -1,14 +1,19 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Moq;
 using SearchEngines.Classes;
+using SearchEngines.Interfaces;
 using System.Collections.Generic;
 using System.Diagnostics;
-
+using System.Net.Http;
+using System.Threading.Tasks;
 
 namespace SearchEngines.UnitTests
 {
     [TestClass]
     public class UtilsTests
     {
+        private IHttpClientFactory _httpClientFactory;
+
         [TestMethod]
         public void parseImgs_HaveImgs_ReturnsListString()
         {
@@ -41,9 +46,43 @@ namespace SearchEngines.UnitTests
             // Act
 
             List<string> imgsUrls = Utils.parseImgs(testString);
-            Debug.WriteLine(imgsUrls);
+            // Debug.WriteLine(imgsUrls);
             // Assert
             CollectionAssert.AreEqual(expectedUrls, imgsUrls);
         }
+
+        [TestMethod]
+        public void parseImgs_emptyStr_EmptyList()
+        {
+            // arrange
+            List<string> expectedUrls = new List<string> { };
+
+            // act
+            List<string> imgsUrls = Utils.parseImgs("");
+
+            // assert
+            CollectionAssert.AreEqual(expectedUrls, imgsUrls);
+        }
+
+        [TestMethod]
+        public async void getImageResults_Success()
+        {
+            List<string> model = new List<string> { };
+            var httpClientMock = new Mock<HttpClientAdaptor>();
+            httpClientMock.Setup(c => c.GetAsync(It.IsAny<string>()))
+                .Returns(() => Task.FromResult(""));
+
+            // _httpClientFactory = httpClientMock.Object;
+
+            var client = new HttpClientAdaptor(_httpClientFactory);
+
+            // Assuming doSomething uses the client to make
+            // a request for a model of type SomeModelObject
+            var results = await Utils.getImageResults("test", client);
+            Debug.WriteLine(results);
+            CollectionAssert.AreEqual(results, model);
+        }
     }
+
+   
 }

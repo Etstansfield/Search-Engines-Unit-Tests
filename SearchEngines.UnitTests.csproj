@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SearchEngines\SearchEngines.csproj" />
+    <ProjectReference Include="..\..\SearchEngines\SearchEnginesCombiner\SearchEngines.csproj" />
   </ItemGroup>
 
 </Project>

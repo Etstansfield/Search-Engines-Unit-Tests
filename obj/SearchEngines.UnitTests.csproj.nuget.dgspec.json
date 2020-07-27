@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Edward\\source\\repos\\SearchEngines.UnitTests\\SearchEngines.UnitTests.csproj": {}
+    "C:\\Users\\Edward\\source\\repos\\SearchEngines.UnitTests\\Search-Engines-Unit-Tests\\SearchEngines.UnitTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Edward\\source\\repos\\SearchEngines.UnitTests\\SearchEngines.UnitTests.csproj": {
+    "C:\\Users\\Edward\\source\\repos\\SearchEngines.UnitTests\\Search-Engines-Unit-Tests\\SearchEngines.UnitTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Edward\\source\\repos\\SearchEngines.UnitTests\\SearchEngines.UnitTests.csproj",
+        "projectUniqueName": "C:\\Users\\Edward\\source\\repos\\SearchEngines.UnitTests\\Search-Engines-Unit-Tests\\SearchEngines.UnitTests.csproj",
         "projectName": "SearchEngines.UnitTests",
-        "projectPath": "C:\\Users\\Edward\\source\\repos\\SearchEngines.UnitTests\\SearchEngines.UnitTests.csproj",
+        "projectPath": "C:\\Users\\Edward\\source\\repos\\SearchEngines.UnitTests\\Search-Engines-Unit-Tests\\SearchEngines.UnitTests.csproj",
         "packagesPath": "C:\\Users\\Edward\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Edward\\source\\repos\\SearchEngines.UnitTests\\obj\\",
+        "outputPath": "C:\\Users\\Edward\\source\\repos\\SearchEngines.UnitTests\\Search-Engines-Unit-Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Edward\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,8 +27,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Edward\\source\\repos\\SearchEngines\\SearchEngines.csproj": {
-                "projectPath": "C:\\Users\\Edward\\source\\repos\\SearchEngines\\SearchEngines.csproj"
+              "C:\\Users\\Edward\\source\\repos\\SearchEngines\\SearchEnginesCombiner\\SearchEngines.csproj": {
+                "projectPath": "C:\\Users\\Edward\\source\\repos\\SearchEngines\\SearchEnginesCombiner\\SearchEngines.csproj"
               }
             }
           }
@@ -85,14 +85,14 @@
         }
       }
     },
-    "C:\\Users\\Edward\\source\\repos\\SearchEngines\\SearchEngines.csproj": {
+    "C:\\Users\\Edward\\source\\repos\\SearchEngines\\SearchEnginesCombiner\\SearchEngines.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Edward\\source\\repos\\SearchEngines\\SearchEngines.csproj",
+        "projectUniqueName": "C:\\Users\\Edward\\source\\repos\\SearchEngines\\SearchEnginesCombiner\\SearchEngines.csproj",
         "projectName": "SearchEngines",
-        "projectPath": "C:\\Users\\Edward\\source\\repos\\SearchEngines\\SearchEngines.csproj",
+        "projectPath": "C:\\Users\\Edward\\source\\repos\\SearchEngines\\SearchEnginesCombiner\\SearchEngines.csproj",
         "packagesPath": "C:\\Users\\Edward\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Edward\\source\\repos\\SearchEngines\\obj\\",
+        "outputPath": "C:\\Users\\Edward\\source\\repos\\SearchEngines\\SearchEnginesCombiner\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Edward\\AppData\\Roaming\\NuGet\\NuGet.Config",

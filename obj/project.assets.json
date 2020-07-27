@@ -7966,8 +7966,8 @@
     },
     "SearchEngines/1.0.0": {
       "type": "project",
-      "path": "../SearchEngines/SearchEngines.csproj",
-      "msbuildProject": "../SearchEngines/SearchEngines.csproj"
+      "path": "../../SearchEngines/SearchEnginesCombiner/SearchEngines.csproj",
+      "msbuildProject": "../../SearchEngines/SearchEnginesCombiner/SearchEngines.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -7986,11 +7986,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Edward\\source\\repos\\SearchEngines.UnitTests\\SearchEngines.UnitTests.csproj",
+      "projectUniqueName": "C:\\Users\\Edward\\source\\repos\\SearchEngines.UnitTests\\Search-Engines-Unit-Tests\\SearchEngines.UnitTests.csproj",
       "projectName": "SearchEngines.UnitTests",
-      "projectPath": "C:\\Users\\Edward\\source\\repos\\SearchEngines.UnitTests\\SearchEngines.UnitTests.csproj",
+      "projectPath": "C:\\Users\\Edward\\source\\repos\\SearchEngines.UnitTests\\Search-Engines-Unit-Tests\\SearchEngines.UnitTests.csproj",
       "packagesPath": "C:\\Users\\Edward\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Edward\\source\\repos\\SearchEngines.UnitTests\\obj\\",
+      "outputPath": "C:\\Users\\Edward\\source\\repos\\SearchEngines.UnitTests\\Search-Engines-Unit-Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Edward\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8006,8 +8006,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Edward\\source\\repos\\SearchEngines\\SearchEngines.csproj": {
-              "projectPath": "C:\\Users\\Edward\\source\\repos\\SearchEngines\\SearchEngines.csproj"
+            "C:\\Users\\Edward\\source\\repos\\SearchEngines\\SearchEnginesCombiner\\SearchEngines.csproj": {
+              "projectPath": "C:\\Users\\Edward\\source\\repos\\SearchEngines\\SearchEnginesCombiner\\SearchEngines.csproj"
             }
           }
         }

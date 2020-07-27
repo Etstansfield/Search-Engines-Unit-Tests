@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nOvYgu7i/C8vUizWvY/zzOzElVxOTXeQhr6hxJWIgS1Slp5URCcvjmraCFARm0GrFrcmI5uTIARKfFMkRAYSBQ==",
+  "dgSpecHash": "tIn9thMEpQjyhRfhgEQslE9kTS6FxeBdwwT247r/HabGzUyRpx32irfbuxUhnJtD77IjyRkl5hDDwz3ueiJo1w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Edward\\source\\repos\\SearchEngines.UnitTests\\SearchEngines.UnitTests.csproj",
+  "projectFilePath": "C:\\Users\\Edward\\source\\repos\\SearchEngines.UnitTests\\Search-Engines-Unit-Tests\\SearchEngines.UnitTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Edward\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
     "C:\\Users\\Edward\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",
